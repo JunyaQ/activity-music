@@ -10,6 +10,8 @@ WHEN I load the page <br/>
 THEN showing the main page, there are navigate bar can lead you to each page and a information box ask you to input a number <br/>
 WHEN I input a number and clicked the search button <br/>
 THEN it showing the genera generated based on getsongbpm API and 250 songs with the BPM number or the nearest possible BPM in the API database <br/>
+WHEN I clicked onto the "view songs" button <br/>
+THEN it will scroll to view the song list <br/>
 WHEN I click onto one of the genera button <br/>
 THEN it filtered to the song with the BPM number i put as well as the genera i choose <br/>
 WHEN I clicked the "Add to list" button near each song<br/>
