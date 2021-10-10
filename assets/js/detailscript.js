@@ -12,7 +12,7 @@ console.log(folderName);
 /**local refresh */
 function localrefresh(){
     var ulist = document.getElementById("unSonglist");
-    ulist.innerHTML=ulist;
+    ulist.innerHTML='';
     displayfoldermusic();
 }
 
@@ -28,6 +28,7 @@ displayfoldermusic();
 function deletesong(click_id){
     var id = click_id;
 console.log(id);
+
 var tempid = id.split(',');
 //var folderid = tempid[0]+tempid[1];
 var tempname = tempid[0];
@@ -60,6 +61,7 @@ if(songname == tempname && songartist==tempartist){
   }
   }
 }
+
 localrefresh();
 }
 
